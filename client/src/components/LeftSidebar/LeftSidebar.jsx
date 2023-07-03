@@ -2,6 +2,9 @@ import React from "react";
 import "./LeftSidebar.css";
 import { NavLink } from "react-router-dom";
 import Globe from "../../assets/Globe.svg";
+import chatbot from "../../assessts/chatbot.png"
+import shop from "../../shop/chatbot.png"
+import social-media from "../../assessts/social-media.png"
 
 const LeftSidebar = ({ slideIn, handleSlideIn }) => {
   const slideInStyle = {
