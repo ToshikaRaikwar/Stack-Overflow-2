@@ -65,8 +65,8 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
             <p style={{ paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
             <NavLink to="https://instagram-clone-pearl-seven.vercel.app/signup" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
-           <img src={instagram} alt="instagram" width="30px" height="30px" />
-            <p style={{ paddingLeft: "10px" }}>Instagram</p>
+           <img src={social-media} alt="social-media" width="30px" height="30px" />
+            <p style={{ paddingLeft: "10px" }}>Social Media</p>
             </NavLink>
           </button>
         </div>
