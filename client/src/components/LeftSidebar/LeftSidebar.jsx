@@ -2,9 +2,9 @@ import React from "react";
 import "./LeftSidebar.css";
 import { NavLink } from "react-router-dom";
 import Globe from "../../assets/Globe.svg";
-import chatbot from "../../assessts/chatbot.png"
-import shop from "../../shop/chatbot.png"
-import social-media from "../../assessts/social-media.png"
+import chatbot from "../../assets/chatbot.png"
+import shop from "../../assets/chatbot.png"
+import socialmedia from "../../assets/socialmedia.png"
 
 const LeftSidebar = ({ slideIn, handleSlideIn }) => {
   const slideInStyle = {
@@ -68,7 +68,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
             <p style={{ paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
             <NavLink to="https://instagram-clone-pearl-seven.vercel.app/signup" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
-           <img src={social-media} alt="social-media" width="30px" height="30px" />
+           <img src={socialmedia} alt="social-media" width="30px" height="30px" />
             <p style={{ paddingLeft: "10px" }}>Social Media</p>
             </NavLink>
           </button>
