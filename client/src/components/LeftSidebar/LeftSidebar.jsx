@@ -65,7 +65,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
             </NavLink>
             <NavLink to="https://main--chimerical-yeot-4abf22.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
            <img src={chatbot} alt="chatbot" width="30px" height="30px" />
-            <p style={{ paddingLeft: "10px" }}>ChatBot</p>
+            <p style={{paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
            
           </button>
