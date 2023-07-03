@@ -59,7 +59,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
             >
               <p>Users</p>
             </NavLink> 
-            <NavLink to="https://6497311cce5f6e0617761084--chic-gumption-a6267f.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
+            <NavLink to="https://razorpay-ngyb.vercel.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
            <img src={shop} alt="shop" width="30px" height="30px" />
             <p style={{ paddingLeft: "10px" }}>Buy</p>
             </NavLink>
