@@ -20,14 +20,15 @@ const HomeMainbar = () => {
     }
   };
 
-  const check = () => {
-    if (user === null) {
-      alert("Login or sign up to share");
-      navigate("/Auth");
-    } else {
-      window.location.href = "https://stack-overflow-2.vercel.app/";
-    }
-  };
+ const check = () => {
+  if (user === null) {
+    alert("Login or sign up to share");
+    navigate("/Auth");
+  } else {
+    window.location.href = "https://stack-overflow-2.vercel.app/";
+  }
+};
+
 
   return (
     <div className="main-bar">
