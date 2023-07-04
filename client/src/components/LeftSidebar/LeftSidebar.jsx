@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Globe from "../../assets/Globe.svg";
 import chatbot from "../../assets/chatbot.png"
 import shop from "../../assets/shop.png"
-
+import socialmedia from "../../assets/socialmedia.png"
 
 const LeftSidebar = ({ slideIn, handleSlideIn }) => {
   const slideInStyle = {
@@ -67,6 +67,11 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
            <img src={chatbot} alt="chatbot" width="30px" height="30px" />
             <p style={{paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
+             <NavLink to="https://social-website-iota.vercel.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
+           <img src={socialmedia} alt="chatbot" width="30px" height="30px" />
+            <p style={{paddingLeft: "10px" }}>ChatBot</p>
+            </NavLink>
+           
            
           </button>
         </div>
