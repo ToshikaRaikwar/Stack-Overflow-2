@@ -19,9 +19,9 @@ const HomeMainbar = () => {
       navigate("/AskQuestion");
     }
   };
-  const checkAuth2 = () => {
+  const check = () => {
     if (user === null) {
-      alert("login or signup to ask a question");
+      alert("login or signup to share");
       navigate("/Auth");
     } else {
       navigate("https://stack-overflow-2.vercel.app/");
@@ -39,7 +39,7 @@ const HomeMainbar = () => {
         <button onClick={checkAuth} className="ask-btn">
           Ask Question
         </button>
-        <button onClick={checkAuth2} className="ask-btn">
+        <button onClick={check} className="ask-btn">
          Share
         </button>
       </div>
