@@ -13,18 +13,19 @@ const HomeMainbar = () => {
 
   const checkAuth = () => {
     if (user === null) {
-      alert("login or signup to ask a question");
+      alert("Login or sign up to ask a question");
       navigate("/Auth");
     } else {
       navigate("/AskQuestion");
     }
   };
+
   const check = () => {
     if (user === null) {
-      alert("login or signup to share");
+      alert("Login or sign up to share");
       navigate("/Auth");
     } else {
-      navigate("https://stack-overflow-2.vercel.app/");
+      window.location.href = "https://stack-overflow-2.vercel.app/";
     }
   };
 
@@ -40,7 +41,7 @@ const HomeMainbar = () => {
           Ask Question
         </button>
         <button onClick={check} className="ask-btn">
-         Share
+          Share
         </button>
       </div>
       <div>
